@@ -26,6 +26,6 @@ public class Cake extends Sweet {
     }
 
     public String getUniqueParameter() {
-        return "1";
+        return uniqueParameter;
     }
 }
