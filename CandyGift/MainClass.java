@@ -17,22 +17,17 @@ public class MainClass {
         box.getAllInfo();
 
 
-       // box.reduceWeight(900.0);
+        // box.reduceWeight(900.0);
         box.reducePrice(2000);
 
 
-         int n = 0; //сколько удаляем элементов
+        int n = 0; //сколько удаляем элементов
         for (int i = 0; i < n; i++) {
 
             box.remove();
         }
 
         box.getAllInfo();
-
-
-
-
-        //  reducePrice(900);
 
 
     }
