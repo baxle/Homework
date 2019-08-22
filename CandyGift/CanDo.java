@@ -1,18 +1,16 @@
 package CandyGift;
 
 public interface CanDo {
-    static void add(Gift gift){}
+    static void add(Sweet sweet){}
     static void remove(int x) {
-        System.out.println("Удаление элемента");
     }
-    static double getWeight(){
-        return Gift.totalWeight;
+    static void getWeight(){
     }
-    static int getPrice(){
-        return Gift.totalPrice;
+    static void getPrice(){
+
     }
     static void getAllInfo(){
-        System.out.println("Информация о всех сладостях в подарке:");
+
     }
 
 

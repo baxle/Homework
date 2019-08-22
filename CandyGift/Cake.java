@@ -1,21 +1,16 @@
 package CandyGift;
 
-public class Cake extends Gift {
+public class Cake extends Sweet {
     private String uniqueParameter;
 
     public Cake(String name, double weight, int price, String uniqueParameter) {
-        super.name = name;
-        super.weight = weight;
-        super.price = price;
+        super(name, weight, price);
         this.uniqueParameter = uniqueParameter;
-        totalPrice += price;
-        totalWeight += weight;
-
     }
 
     @Override
     public String toString() {
-        return "Название: " +name + "; Вес, [г]: " +weight+ "; Цена, [руб]: " +price + "; Уникальный Параметр = " +uniqueParameter;
+        return super.toString() + " Уникальный Параметр = " +uniqueParameter;
     }
 
     public String getName() {
